@@ -27,6 +27,9 @@ sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware" -y
 # apps
 # -------------------------------------------------
 
+# apps - some apps
+sudo dnf install -y google-chrome-stable vlc inkscape file-roller drawing jetbrains-mono-fonts
+
 # apps - visual studio code
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
