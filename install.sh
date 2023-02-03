@@ -29,6 +29,7 @@ sudo dnf --repo=rpmfusion-nonfree-tainted install "*-firmware" -y
 
 # apps - some apps
 sudo dnf install -y google-chrome-stable vlc inkscape file-roller drawing jetbrains-mono-fonts
+flatpak install flathub org.telegram.desktop
 
 # apps - visual studio code
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
